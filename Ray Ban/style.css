@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "general-sans", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    
+    height:100vh;
+    width:100%;
+}
+#back{
+    width: 100%;
+    height: 100vh;
+}
+#bgimgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+#wspace{
+    position: relative;
+    width:80%;
+    height:100vh;
+    margin:auto;
+    margin-top: 20px;
+    max-width: 1920px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#navl img{
+    width:80px;
+    height:45px;
+}
+#navl{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap:40px;
+}
+nav a{
+    pointer-events: all;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+#navr{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    gap:40px;
+}
+#hero{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, -50%);
+    position: absolute;
+    top:50%;
+    left:0;
+}
+#hero-left{
+    margin-top: 60px;
+    width:50%;
+}
+.elem{
+    position: relative;
+    height: 9vw;
+    width: 100%;
+    overflow: hidden;
+}
+.elem h1{
+    position: absolute;
+    top:100%;
+    left:0;
+    line-height: 0.9;
+    font-family: 'kajiro';
+    font-size: 11vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    color:white
+}
+.elem h1:nth-child(1){
+    top:0;
+    
+}
+#hero-left button{
+    pointer-events: all;
+    padding: 13px 30px;
+    font-family: 'kajiro';
+    font-size: 1.5vw;
+    color:white;
+    margin-top: 30px;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 7%;
+}
+#hero-right{
+    margin-top: 50px;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+}
+#hero-right p{
+    padding-right: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#hero-right img{
+    width: 15vw;
+    height: 10vw;
+    object-fit: cover;
+    margin-bottom: 26px;
+    margin-right: 10px;
+}
+#hero-right p:nth-child(4){
+    margin-top: 40px;
+}
+
